@@ -17,7 +17,7 @@ body {
 
 .background-image {
     width: 50%;
-    background: url('resources/background.jpg') no-repeat center center fixed;
+    background: url('resources/background_bkp.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
