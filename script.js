@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
-        document.querySelector('.container').classList.add('fade-in');
+        document.querySelectorAll('.container').forEach(container => {
+            container.classList.add('fade-in');
+        });
     }, 500);
 });
